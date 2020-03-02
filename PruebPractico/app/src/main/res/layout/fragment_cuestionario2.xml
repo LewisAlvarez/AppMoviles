@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+
+<GridLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="PREGUNTA"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:id="@+id/pregunta"
+        android:text="Aqui va escrita la pregunta"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/question"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/respuesta"
+        android:hint="Escriba su respuesta"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:id="@+id/aceptarrespuesta"
+        android:text="Aceptar"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:background="#FFFA"
+        />
+
+    <TextClock
+        android:layout_width="35dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="1dp"
+        />
+
+</GridLayout>
+
+</RelativeLayout>

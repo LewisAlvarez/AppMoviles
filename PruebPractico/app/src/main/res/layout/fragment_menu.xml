@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MenuFragment"
+    android:orientation="horizontal"
+    android:backgroundTint="#000"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFF"
+        android:layout_alignParentBottom="true"
+        >
+
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/pregunta"
+            android:src="@drawable/pregunta"
+            android:saveEnabled="false"
+            />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:background="#FFF"
+            />
+
+
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/maps"
+            android:src="@drawable/maps"
+            />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:background="#FFF"
+            />
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/tienda"
+            android:src="@drawable/tienda"
+            android:saveEnabled="false"
+            />
+
+    </LinearLayout>
+</FrameLayout>

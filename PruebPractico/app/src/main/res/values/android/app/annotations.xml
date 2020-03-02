@@ -1,0 +1,6 @@
+<root>
+    <item name='android.app.Fragment android.app.FragmentManager getChildFragmentManager()'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+        <annotation name='org.jetbrains.annotations.Blocking' />
+    </item>
+</root>
