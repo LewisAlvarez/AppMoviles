@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="55dp"
+    android:gravity="center"
+    >
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imagencancion"
+        android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre Canción"
+            android:textSize="30dp"
+            android:id="@+id/nombrecancion"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Artista Canción"
+            android:textSize="25dp"
+            android:textColor="#4638F8"
+            android:id="@+id/artistacancion"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Album Canción"
+            android:textSize="20dp"
+            android:id="@+id/albumcancion"
+            android:layout_gravity="center"
+            android:textColor="#987654"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Duracion Canción"
+            android:textSize="27dp"
+            android:id="@+id/duracioncancion"
+            android:layout_gravity="center"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="_________________________________________"
+            />
+
+    </GridLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Escuchar"
+        android:background="#F78"
+        android:layout_gravity="center"
+        android:id="@+id/escuchar"
+        />
+
+</LinearLayout>

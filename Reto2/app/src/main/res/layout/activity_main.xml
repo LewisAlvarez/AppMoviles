@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8C8C9D"
+        >
+    <EditText
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:hint="Buscar una lista de reproduccion"
+        android:id="@+id/buscar"
+        />
+    <ImageButton
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:id="@+id/lupa"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/lupa"
+        />
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listasdereproduccion">
+    </ListView>
+
+</LinearLayout>
+
+</GridLayout>

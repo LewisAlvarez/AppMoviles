@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <ImageView android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/imagenalbum"
+        android:contentDescription="@string/app_name"
+        />
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nombreplaylist"
+            android:textSize="30dp"
+            android:text="Nombre del PlayList"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/descripcionplaylist"
+            android:text="Descripción de la canción"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="# Canciones # Fans"
+            android:id="@+id/cantidadcancionesyfans"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+
+    <ListView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listacanciones"
+        />
+
+</GridLayout>
